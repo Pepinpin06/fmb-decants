@@ -30,8 +30,7 @@ export default function Footer() {
                     <h4 className="text-lg font-medium text-white mb-4">Contacto</h4>
                     <ul className="space-y-2 text-sm opacity-80">
                         <li>CDMX, México</li>
-                        <li>CP 14330</li>
-                        <li>soporte@fmbdecants.com</li>
+                        <li>fmbdecants@gmail.com</li>
                     </ul>
                 </div>
 
