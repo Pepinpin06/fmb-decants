@@ -57,15 +57,7 @@ export default function ContactPage() {
                                     <p className="text-gray-400">fmbdecants@gmail.com</p>
                                 </div>
                             </div>
-                            <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-primary shrink-0">
-                                    <Phone className="w-5 h-5" />
-                                </div>
-                                <div>
-                                    <h3 className="text-white font-bold mb-1">WhatsApp</h3>
-                                    <p className="text-gray-400">+52 55 </p>
-                                </div>
-                            </div>
+
                             <div className="flex items-start gap-4">
                                 <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-primary shrink-0">
                                     <MapPin className="w-5 h-5" />
