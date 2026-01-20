@@ -42,7 +42,7 @@ export default function CatalogPage() {
             const matchesSearch =
                 product.name.toLowerCase().includes(query) ||
                 product.brand.toLowerCase().includes(query) ||
-                product.notes.بعض(note => note.toLowerCase().includes(query));
+                product.notes.some(note => note.toLowerCase().includes(query));
 
             if (!matchesSearch) return false;
 
