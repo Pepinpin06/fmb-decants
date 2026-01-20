@@ -1,14 +1,7 @@
 "use client";
 
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
-
-const initialOptions = {
-    "clientId": process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "",
-    currency: "MXN",
-    intent: "capture",
-};
+import { useState, useEffect } from "react";
 
 interface PayPalWrapperProps {
     amount: number;
@@ -17,20 +10,39 @@ interface PayPalWrapperProps {
 
 export default function PayPalWrapper({ amount, onSuccess }: PayPalWrapperProps) {
     const [error, setError] = useState<string | null>(null);
+    const [clientId, setClientId] = useState<string | null>(null);
 
-    const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
+    useEffect(() => {
+        // Safe check for env var on client side mount
+        const key = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
+        if (key) {
+            setClientId(key);
+        } else {
+            setError("Falta la CLAVE DE CLIENTE (NEXT_PUBLIC_PAYPAL_CLIENT_ID).");
+        }
+    }, []);
 
-    if (!clientId) {
+    if (error) {
         return (
             <div className="p-4 bg-red-500/10 border border-red-500/20 rounded-lg text-red-500 text-sm text-center">
-                Error de configuración: Falta el Client ID de PayPal.
+                Error: {error}
             </div>
         );
     }
 
+    if (!clientId) {
+        return <div className="text-white/50 text-center text-xs animate-pulse">Cargando pagos...</div>;
+    }
+
+    const options = {
+        "clientId": clientId,
+        currency: "MXN",
+        intent: "capture",
+    };
+
     return (
         <div className="w-full z-0 relative">
-            <PayPalScriptProvider options={{ ...initialOptions, clientId }}>
+            <PayPalScriptProvider options={options}>
                 <PayPalButtons
                     style={{ layout: "vertical", color: "gold", shape: "rect", label: "pay" }}
                     createOrder={async () => {
@@ -57,7 +69,6 @@ export default function PayPalWrapper({ amount, onSuccess }: PayPalWrapperProps)
                                 body: JSON.stringify({ orderID: data.orderID }),
                             });
                             const details = await res.json();
-                            // Optional: Validate details.status === 'COMPLETED'
                             onSuccess(details);
                         } catch (err) {
                             console.error("Capture Error", err);
@@ -66,7 +77,7 @@ export default function PayPalWrapper({ amount, onSuccess }: PayPalWrapperProps)
                     }}
                     onError={(err) => {
                         console.error("PayPal Button Error", err);
-                        setError("Hubo un problema con la conexión a PayPal.");
+                        setError("Problema de conexión con PayPal.");
                     }}
                 />
             </PayPalScriptProvider>
