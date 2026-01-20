@@ -53,11 +53,17 @@ export default function PayPalWrapper({ amount, onSuccess }: PayPalWrapperProps)
                                 body: JSON.stringify({ total: amount }),
                             });
                             const order = await res.json();
+
+                            if (!res.ok) {
+                                throw new Error(order.error || "Error desconocido en el servidor");
+                            }
+
                             if (order.id) return order.id;
                             throw new Error("Order ID missing");
-                        } catch (err) {
+                        } catch (err: any) {
                             console.error("Create Order Error", err);
-                            setError("Error al iniciar el pago con PayPal.");
+                            // Show the actual error message from the server
+                            setError(err.message || "Error al iniciar el pago con PayPal.");
                             return "";
                         }
                     }}
