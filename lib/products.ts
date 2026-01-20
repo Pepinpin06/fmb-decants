@@ -9,7 +9,7 @@ export const products: Product[] = [
         description: 'Una interpretación intensa y adictiva de la naturaleza original de Le Beau. Notas de coco, piña, sándalo y haba tonka.',
         image: 'https://i.imgur.com/a04sjov.png',
         notes: ['Piña', 'Iris', 'Ciprés', 'Haba Tonka', 'Coco'],
-        prices: { 3: 150, 5: 240, 10: 450 },
+        prices: { 3: 149.9, 5: 199.9, 10: 359.9 },
         isFeatured: true,
     },
     {
@@ -20,7 +20,7 @@ export const products: Product[] = [
         description: 'Un jardín de tentaciones. Frescura verde y acuática con un toque dulce y exótico.',
         image: 'https://i.imgur.com/gyjNwAp.jpeg',
         notes: ['Menta', 'Hierba Verde', 'Coco', 'Sándalo'],
-        prices: { 3: 160, 5: 250, 10: 460 },
+        prices: { 3: 149.9, 5: 199.9, 10: 359.9 },
     },
     {
         id: '3',
@@ -30,7 +30,7 @@ export const products: Product[] = [
         description: 'Un perfume ardiente y sensual. Lavanda dorada y miel sobre un fondo de tabaco y haba tonka.',
         image: 'https://i.imgur.com/PTemlE2.jpeg',
         notes: ['Lavanda', 'Miel', 'Tabaco', 'Haba Tonka'],
-        prices: { 3: 170, 5: 270, 10: 480 },
+        prices: { 3: 149.9, 5: 199.9, 10: 359.9 },
         isFeatured: true,
     },
     {
@@ -41,7 +41,7 @@ export const products: Product[] = [
         description: 'Una celebración de la Roma nocturna. Vainilla bourbon y notas ambarinas.',
         image: 'https://i.imgur.com/ASBcINI.jpeg',
         notes: ['Vainilla', 'Lavanda', 'Vetiver'],
-        prices: { 3: 160, 5: 250, 10: 460 },
+        prices: { 3: 169.9, 5: 249.9, 10: 449.9 },
     },
     {
         id: '5',
@@ -51,7 +51,7 @@ export const products: Product[] = [
         description: 'La fragancia de los hombres que se atreven. Frescura aromática con un fondo amaderado profundo.',
         image: 'https://i.imgur.com/ObxsEAp.jpeg',
         notes: ['Manzana', 'Jengibre', 'Salvia', 'Geranio'],
-        prices: { 3: 140, 5: 220, 10: 400 },
+        prices: { 3: 159.9, 5: 239.9, 10: 429.9 },
     },
     {
         id: '6',
@@ -61,7 +61,7 @@ export const products: Product[] = [
         description: 'Un golpe de teatro. Geranio intenso y caramelo tostado.',
         image: 'https://i.imgur.com/D4NX1DB.jpeg',
         notes: ['Geranio', 'Haba Tonka', 'Sándalo'],
-        prices: { 3: 150, 5: 240, 10: 440 },
+        prices: { 3: 149.9, 5: 198.9, 10: 358.9 },
     },
     {
         id: '7',
@@ -71,7 +71,7 @@ export const products: Product[] = [
         description: 'Frescura marina estimulante con un toque de elegancia moderna.',
         image: 'https://i.imgur.com/1riqqdz.jpeg',
         notes: ['Notas Marinas', 'Cítricos', 'Maderas'],
-        prices: { 3: 80, 5: 120, 10: 200 },
+        prices: { 3: 78.9, 5: 108.9, 10: 178.9 },
     },
     {
         id: '8',
@@ -81,7 +81,7 @@ export const products: Product[] = [
         description: 'Una fragancia sofisticada y envolvente, ideal para ocasiones especiales.',
         image: 'https://i.imgur.com/P1RrbQJ.jpeg',
         notes: ['Especias', 'Maderas', 'Ámbar'],
-        prices: { 3: 90, 5: 140, 10: 250 },
+        prices: { 3: 98.9, 5: 154.9, 10: 274.9 },
     },
     {
         id: '9',
@@ -91,7 +91,7 @@ export const products: Product[] = [
         description: 'La contraparte ardiente de Hawas, con notas cálidas y vibrantes.',
         image: 'https://i.imgur.com/OlDTK2q.jpeg',
         notes: ['Cítricos', 'Especias', 'Almizcle'],
-        prices: { 3: 100, 5: 160, 10: 280 },
+        prices: { 3: 84.9, 5: 134.9, 10: 244.9 },
     },
     {
         id: '10',
@@ -101,7 +101,7 @@ export const products: Product[] = [
         description: 'Una versión rica y gourmand del clásico Khamrah con notas de café intenso.',
         image: 'https://i.imgur.com/O9uMmri.jpeg',
         notes: ['Café', 'Canela', 'Cardamomo', 'Praliné'],
-        prices: { 3: 90, 5: 140, 10: 250 },
+        prices: { 3: 85.9, 5: 119.9, 10: 179.9 },
     },
     {
         id: '11',
@@ -111,7 +111,7 @@ export const products: Product[] = [
         description: 'Frescura helada y frutal, perfecta para el calor intenso.',
         image: 'https://i.imgur.com/rjX630d.jpeg',
         notes: ['Manzana', 'Ciruela', 'Cítricos', 'Notas Acuáticas'],
-        prices: { 3: 110, 5: 180, 10: 320 },
+        prices: { 3: 84.9, 5: 119.9, 10: 179.9 },
     },
     {
         id: '12',
@@ -121,7 +121,7 @@ export const products: Product[] = [
         description: 'Urbano, moderno y magnético. Para el hombre cosmopolita.',
         image: 'https://i.imgur.com/iiozczK.jpeg',
         notes: ['Pimienta Rosa', 'Jazmín', 'Lavanda', 'Pachulí'],
-        prices: { 3: 90, 5: 130, 10: 220 },
+        prices: { 3: 84.9, 5: 119.9, 10: 179.9 },
     },
     {
         id: '13',
@@ -131,7 +131,7 @@ export const products: Product[] = [
         description: 'Dulce, cremoso y femenino. Un aroma viral que encanta.',
         image: 'https://i.imgur.com/EwFVkSR.jpeg',
         notes: ['Orquídea', 'Vainilla', 'Frutas Tropicales'],
-        prices: { 3: 80, 5: 120, 10: 200 },
+        prices: { 3: 79.9, 5: 109.9, 10: 179.9 },
     },
     {
         id: '14',
@@ -141,7 +141,7 @@ export const products: Product[] = [
         description: 'Cítrico y sofisticado, una joya oculta de la perfumería árabe.',
         image: 'https://i.imgur.com/zndPWI4.png',
         notes: ['Cítricos', 'Ámbar', 'Almizcle', 'Especias'],
-        prices: { 3: 90, 5: 140, 10: 240 },
+        prices: { 3: 89.9, 5: 119.9, 10: 199.9 },
     },
     {
         id: '15',
@@ -151,7 +151,7 @@ export const products: Product[] = [
         description: 'Elegancia pura en una botella. Fresco y versátil.',
         image: 'https://i.imgur.com/RuUAG56.jpeg',
         notes: ['Bergamota', 'Lavanda', 'Maderas Blancas'],
-        prices: { 3: 80, 5: 120, 10: 200 },
+        prices: { 3: 78.9, 5: 108.9, 10: 178.9 },
     },
     {
         id: '16',
@@ -161,7 +161,7 @@ export const products: Product[] = [
         description: 'Una fragancia majestuosa con una apertura única de piña brulee.',
         image: 'https://i.imgur.com/Saa1zb1.jpeg',
         notes: ['Piña', 'Crème Brûlée', 'Cúrcuma', 'Sándalo'],
-        prices: { 3: 90, 5: 150, 10: 260 },
+        prices: { 3: 79.9, 5: 109.9, 10: 169.9 },
     },
     {
         id: '17',
@@ -171,7 +171,7 @@ export const products: Product[] = [
         description: 'Inspirado en gemas preciosas, un aroma verde y amaderado.',
         image: 'https://i.imgur.com/J5S486o.jpeg',
         notes: ['Notas Verdes', 'Maderas', 'Ámbar'],
-        prices: { 3: 100, 5: 160, 10: 280 },
+        prices: { 3: 79.9, 5: 109.9, 10: 169.9 },
     },
     {
         id: '18',
@@ -181,7 +181,7 @@ export const products: Product[] = [
         description: 'Potente y distintivo, para dejar huella.',
         image: 'https://i.imgur.com/LDb4XC9.jpeg',
         notes: ['Manzana', 'Cardamomo', 'Tabaco'],
-        prices: { 3: 85, 5: 130, 10: 220 },
+        prices: { 3: 69.9, 5: 94.9, 10: 159.9 },
     },
     {
         id: '19',
@@ -191,7 +191,7 @@ export const products: Product[] = [
         description: 'Fresco y vigorizante, inspirado en el aire de montaña.',
         image: 'https://i.imgur.com/09ZM78B.jpeg',
         notes: ['Cítricos', 'Maderas', 'Notas Ozónicas'],
-        prices: { 3: 80, 5: 120, 10: 200 },
+        prices: { 3: 78.9, 5: 108.9, 10: 178.9 },
     },
     {
         id: '20',
@@ -201,7 +201,7 @@ export const products: Product[] = [
         description: 'La esencia de la vida. Frutal, fresco y ligeramente dulce.',
         image: 'https://i.imgur.com/3IpcVvF.jpeg',
         notes: ['Manzana', 'Bergamota', 'Canela', 'Vainilla'],
-        prices: { 3: 70, 5: 100, 10: 180 },
+        prices: { 3: 69.9, 5: 94.9, 10: 149.9 },
     },
     {
         id: '21',
@@ -211,7 +211,7 @@ export const products: Product[] = [
         description: 'El clon perfecto de YSL Y. Versátil y cumplidor.',
         image: 'https://i.imgur.com/M6fEBWT.jpeg',
         notes: ['Manzana', 'Jengibre', 'Lavanda', 'Haba Tonka'],
-        prices: { 3: 80, 5: 130, 10: 220 },
+        prices: { 3: 79.9, 5: 109.9, 10: 169.9 },
     },
     {
         id: '22',
@@ -221,7 +221,7 @@ export const products: Product[] = [
         description: 'Una explosión de frutos rojos y malvavisco. Irresistible.',
         image: 'https://i.imgur.com/bpuLdEk.jpeg',
         notes: ['Frutos Rojos', 'Malvavisco', 'Vainilla'],
-        prices: { 3: 75, 5: 110, 10: 190 },
+        prices: { 3: 79.9, 5: 109.9, 10: 179.9 },
     },
     {
         id: '23',
@@ -231,6 +231,6 @@ export const products: Product[] = [
         description: 'Inspirado en Megamare. Potencia marina extrema.',
         image: 'https://i.imgur.com/KZa6jBa.jpeg',
         notes: ['Notas Marinas', 'Algas', 'Almizcle', 'Limón'],
-        prices: { 3: 100, 5: 160, 10: 280 },
+        prices: { 3: 148.9, 5: 199.9, 10: 348.9 },
     },
 ];
