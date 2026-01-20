@@ -1,7 +1,10 @@
 import { NextResponse } from 'next/server';
 
-const { NEXT_PUBLIC_PAYPAL_CLIENT_ID, PAYPAL_CLIENT_SECRET } = process.env;
-const BASE_URL = "https://api-m.paypal.com"; // PRODUCTION URL
+const { NEXT_PUBLIC_PAYPAL_CLIENT_ID, PAYPAL_CLIENT_SECRET, NEXT_PUBLIC_PAYPAL_MODE } = process.env;
+
+const BASE_URL = NEXT_PUBLIC_PAYPAL_MODE === 'sandbox'
+    ? "https://api-m.sandbox.paypal.com"
+    : "https://api-m.paypal.com";
 
 async function generateAccessToken() {
     if (!NEXT_PUBLIC_PAYPAL_CLIENT_ID || !PAYPAL_CLIENT_SECRET) {
