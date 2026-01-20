@@ -6,9 +6,93 @@ export const products: Product[] = [
         name: 'Le Beau Le Parfum',
         brand: 'Jean Paul Gaultier',
         slug: 'le-beau-le-parfum',
-        description: 'Una interpretación intensa y adictiva de la naturaleza original de Le Beau. Notas de coco, piña, sándalo y haba tonka.',
+        description: 'Una interpretación diabólicamente irresistible. La frescura del jengibre y la piña se fusiona con la sensualidad viril del sándalo.',
         image: 'https://i.imgur.com/a04sjov.png',
-        notes: ['Piña', 'Iris', 'Ciprés', 'Haba Tonka', 'Coco'],
+        notes: ['Piña', 'Iris', 'Ciprés', 'Jengibre', 'Coco', 'Haba Tonka', 'Sándalo', 'Ambar', 'Notas Amaderadas'],
+        accords: [
+                {
+                    "n": "Coco",
+                    "v": 100,
+                    "c": "#F5F5DC"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 90,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 85,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 70,
+                    "c": "#FF8C00"
+                },
+                {
+                    "n": "Tropical",
+                    "v": 65,
+                    "c": "#FFD700"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 60,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 55,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 40,
+                    "c": "#FFB6C1"
+                }
+            ],
+        accords: [
+                {
+                    "n": "Coco",
+                    "v": 100,
+                    "c": "#F5F5DC"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 90,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 85,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 70,
+                    "c": "#FF8C00"
+                },
+                {
+                    "n": "Tropical",
+                    "v": 65,
+                    "c": "#FFD700"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 60,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 55,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 40,
+                    "c": "#FFB6C1"
+                }
+            ],
         prices: { 3: 149.9, 5: 199.9, 10: 359.9 },
         isFeatured: true,
     },
@@ -17,9 +101,93 @@ export const products: Product[] = [
         name: 'Paradise Garden',
         brand: 'Jean Paul Gaultier',
         slug: 'paradise-garden',
-        description: 'Un jardín de tentaciones. Frescura verde y acuática con un toque dulce y exótico.',
+        description: 'Un viaje acuático y verde. La frescura salada se encuentra con la dulzura cremosa del coco y el higo en un jardín exuberante.',
         image: 'https://i.imgur.com/gyjNwAp.jpeg',
-        notes: ['Menta', 'Hierba Verde', 'Coco', 'Sándalo'],
+        notes: ['Notas Verdes', 'Notas Acuosas', 'Menta', 'Jengibre', 'Coco', 'Higo', 'Sal', 'Haba Tonka', 'Sándalo'],
+        accords: [
+                {
+                    "n": "Verde",
+                    "v": 100,
+                    "c": "#228B22"
+                },
+                {
+                    "n": "Coco",
+                    "v": 90,
+                    "c": "#F5F5DC"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 80,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 75,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Acuático",
+                    "v": 70,
+                    "c": "#00FFFF"
+                },
+                {
+                    "n": "Fresco",
+                    "v": 65,
+                    "c": "#ADD8E6"
+                },
+                {
+                    "n": "Salado",
+                    "v": 60,
+                    "c": "#A9A9A9"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 50,
+                    "c": "#FFFF00"
+                }
+            ],
+        accords: [
+                {
+                    "n": "Verde",
+                    "v": 100,
+                    "c": "#228B22"
+                },
+                {
+                    "n": "Coco",
+                    "v": 90,
+                    "c": "#F5F5DC"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 80,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 75,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Acuático",
+                    "v": 70,
+                    "c": "#00FFFF"
+                },
+                {
+                    "n": "Fresco",
+                    "v": 65,
+                    "c": "#ADD8E6"
+                },
+                {
+                    "n": "Salado",
+                    "v": 60,
+                    "c": "#A9A9A9"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 50,
+                    "c": "#FFFF00"
+                }
+            ],
         prices: { 3: 149.9, 5: 199.9, 10: 359.9 },
     },
     {
@@ -27,9 +195,93 @@ export const products: Product[] = [
         name: 'Le Male Elixir',
         brand: 'Jean Paul Gaultier',
         slug: 'le-male-elixir',
-        description: 'Un perfume ardiente y sensual. Lavanda dorada y miel sobre un fondo de tabaco y haba tonka.',
+        description: 'Marinero ardiente. Lavanda aromática bañada en miel dorada y tabaco, creando una estela adictiva y lujosa.',
         image: 'https://i.imgur.com/PTemlE2.jpeg',
-        notes: ['Lavanda', 'Miel', 'Tabaco', 'Haba Tonka'],
+        notes: ['Lavanda', 'Menta', 'Vainilla', 'Benjuí', 'Miel', 'Tabaco', 'Haba Tonka'],
+        accords: [
+                {
+                    "n": "Dulce",
+                    "v": 100,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 95,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Miel",
+                    "v": 90,
+                    "c": "#D2691E"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 85,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 70,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Tabaco",
+                    "v": 65,
+                    "c": "#6F4E37"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 60,
+                    "c": "#FF7F50"
+                },
+                {
+                    "n": "Lavanda",
+                    "v": 50,
+                    "c": "#E6E6FA"
+                }
+            ],
+        accords: [
+                {
+                    "n": "Dulce",
+                    "v": 100,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 95,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Miel",
+                    "v": 90,
+                    "c": "#D2691E"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 85,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 70,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Tabaco",
+                    "v": 65,
+                    "c": "#6F4E37"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 60,
+                    "c": "#FF7F50"
+                },
+                {
+                    "n": "Lavanda",
+                    "v": 50,
+                    "c": "#E6E6FA"
+                }
+            ],
         prices: { 3: 149.9, 5: 199.9, 10: 359.9 },
         isFeatured: true,
     },
@@ -38,9 +290,46 @@ export const products: Product[] = [
         name: 'Born in Roma Intense',
         brand: 'Valentino',
         slug: 'born-in-roma-intense',
-        description: 'Una celebración de la Roma nocturna. Vainilla bourbon y notas ambarinas.',
+        description: 'Homenaje a Roma. Vainilla sensual amplificada por vetiver ahumado y lavanda vibrante.',
         image: 'https://i.imgur.com/ASBcINI.jpeg',
-        notes: ['Vainilla', 'Lavanda', 'Vetiver'],
+        notes: ['Vainilla', 'Lavanda', 'Vetiver', 'Jengibre', 'Notas Amaderadas'],
+        accords: [
+                {
+                    "n": "Vainilla",
+                    "v": 100,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 90,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Lavanda",
+                    "v": 85,
+                    "c": "#E6E6FA"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 80,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 70,
+                    "c": "#FF7F50"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 60,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 50,
+                    "c": "#FFB6C1"
+                }
+            ],
         prices: { 3: 169.9, 5: 249.9, 10: 449.9 },
     },
     {
@@ -48,9 +337,51 @@ export const products: Product[] = [
         name: 'Y Eau de Parfum',
         brand: 'YSL',
         slug: 'y-eau-de-parfum',
-        description: 'La fragancia de los hombres que se atreven. Frescura aromática con un fondo amaderado profundo.',
+        description: 'Frescura profunda. Manzana crujiente se encuentra con salvia aromática, geranio y maderas ambarinas.',
         image: 'https://i.imgur.com/ObxsEAp.jpeg',
-        notes: ['Manzana', 'Jengibre', 'Salvia', 'Geranio'],
+        notes: ['Manzana', 'Jengibre', 'Bergamota', 'Salvia', 'Bayas de Enebro', 'Geranio', 'Amberwood', 'Haba Tonka', 'Cedro', 'Vetiver', 'Olíbano'],
+        accords: [
+                {
+                    "n": "Aromático",
+                    "v": 100,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 90,
+                    "c": "#FF7F50"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 85,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 80,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 70,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Herbal",
+                    "v": 60,
+                    "c": "#228B22"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 50,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Fresco",
+                    "v": 40,
+                    "c": "#ADD8E6"
+                }
+            ],
         prices: { 3: 159.9, 5: 239.9, 10: 429.9 },
     },
     {
@@ -58,9 +389,46 @@ export const products: Product[] = [
         name: 'Scandal Le Parfum',
         brand: 'Jean Paul Gaultier',
         slug: 'scandal-le-parfum',
-        description: 'Un golpe de teatro. Geranio intenso y caramelo tostado.',
+        description: 'Uppercut de sensaciones. Geranio intenso, maderas cálidas, haba tonka y un toque de caramelo.',
         image: 'https://i.imgur.com/D4NX1DB.jpeg',
-        notes: ['Geranio', 'Haba Tonka', 'Sándalo'],
+        notes: ['Geranio', 'Haba Tonka', 'Sándalo', 'Caramelo'],
+        accords: [
+                {
+                    "n": "Ambarado",
+                    "v": 100,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 95,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 85,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 80,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Cálido Esp.",
+                    "v": 70,
+                    "c": "#B22222"
+                },
+                {
+                    "n": "Caramelo",
+                    "v": 60,
+                    "c": "#D2691E"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 50,
+                    "c": "#FFFF00"
+                }
+            ],
         prices: { 3: 149.9, 5: 198.9, 10: 358.9 },
     },
     {
@@ -68,9 +436,41 @@ export const products: Product[] = [
         name: 'Odyssey Aqua',
         brand: 'Armaf',
         slug: 'odyssey-aqua',
-        description: 'Frescura marina estimulante con un toque de elegancia moderna.',
+        description: 'Ráfaga marina moderna. Pomelo vibrante, notas acuáticas, menta y un fondo amaderado. Inspirado en Invictus Platinum.',
         image: 'https://i.imgur.com/1riqqdz.jpeg',
-        notes: ['Notas Marinas', 'Cítricos', 'Maderas'],
+        notes: ['Toronja (Pomelo)', 'Notas Marinas', 'Violeta', 'Menta', 'Ciprés', 'Amberwood'],
+        accords: [
+                {
+                    "n": "Cítrico",
+                    "v": 100,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 95,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Marino",
+                    "v": 90,
+                    "c": "#00FFFF"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 80,
+                    "c": "#4ade80"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 70,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Verde",
+                    "v": 60,
+                    "c": "#228B22"
+                }
+            ],
         prices: { 3: 78.9, 5: 108.9, 10: 178.9 },
     },
     {
@@ -78,9 +478,41 @@ export const products: Product[] = [
         name: 'Liquid Brun',
         brand: 'French Avenue',
         slug: 'liquid-brun',
-        description: 'Una fragancia sofisticada y envolvente, ideal para ocasiones especiales.',
+        description: 'Una sobredosis de vainilla bourbon y praliné. Cálido, especiado y lujosamente envolvente. Inspirado en Althaïr de PDM.',
         image: 'https://i.imgur.com/P1RrbQJ.jpeg',
-        notes: ['Especias', 'Maderas', 'Ámbar'],
+        notes: ['Vainilla Bourbon', 'Praliné', 'Canela', 'Cardamomo', 'Flor de Azahar', 'Madera de Gaiac', 'Almizcle', 'Bergamota'],
+        accords: [
+                {
+                    "n": "Vainilla",
+                    "v": 100,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 95,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Cálido Esp.",
+                    "v": 90,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 70,
+                    "c": "#654321"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 60,
+                    "c": "#E6E6FA"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 50,
+                    "c": "#D3D3D3"
+                }
+            ],
         prices: { 3: 98.9, 5: 154.9, 10: 274.9 },
     },
     {
@@ -88,9 +520,41 @@ export const products: Product[] = [
         name: 'Hawas Fire',
         brand: 'Rasasi',
         slug: 'hawas-fire',
-        description: 'La contraparte ardiente de Hawas, con notas cálidas y vibrantes.',
+        description: 'La intensidad del fuego. Manzana roja dulce y ciruela se encuentran con especias vibrantes y un fondo de ámbar gris. Audaz y seductor.',
         image: 'https://i.imgur.com/OlDTK2q.jpeg',
-        notes: ['Cítricos', 'Especias', 'Almizcle'],
+        notes: ['Manzana Roja', 'Ciruela', 'Anís Estrellado', 'Limón', 'Cardamomo', 'Ámbar Gris', 'Madera Flotante', 'Musgo'],
+        accords: [
+                {
+                    "n": "Afrutado",
+                    "v": 100,
+                    "c": "#FF0000"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 90,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 80,
+                    "c": "#FFA500"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 75,
+                    "c": "#FF8C00"
+                },
+                {
+                    "n": "Marino",
+                    "v": 60,
+                    "c": "#00BFFF"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 50,
+                    "c": "#FFFF00"
+                }
+            ],
         prices: { 3: 84.9, 5: 134.9, 10: 244.9 },
     },
     {
@@ -98,9 +562,46 @@ export const products: Product[] = [
         name: 'Khamrah Qahwa',
         brand: 'Lattafa',
         slug: 'khamrah-qahwa',
-        description: 'Una versión rica y gourmand del clásico Khamrah con notas de café intenso.',
+        description: 'Riqueza del café árabe. Gourmand sofisticado con praliné, canela, café tostado y vainilla.',
         image: 'https://i.imgur.com/O9uMmri.jpeg',
-        notes: ['Café', 'Canela', 'Cardamomo', 'Praliné'],
+        notes: ['Canela', 'Cardamomo', 'Jengibre', 'Praliné', 'Frutas Confitadas', 'Flores Blancas', 'Café', 'Vainilla', 'Haba Tonka', 'Benjuí', 'Almizcle'],
+        accords: [
+                {
+                    "n": "Cálido Esp.",
+                    "v": 100,
+                    "c": "#B22222"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 95,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Café",
+                    "v": 90,
+                    "c": "#654321"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 85,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 80,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 70,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Canela",
+                    "v": 60,
+                    "c": "#D2691E"
+                }
+            ],
         prices: { 3: 85.9, 5: 119.9, 10: 179.9 },
     },
     {
@@ -108,9 +609,46 @@ export const products: Product[] = [
         name: 'Hawas Ice',
         brand: 'Rasasi',
         slug: 'hawas-ice',
-        description: 'Frescura helada y frutal, perfecta para el calor intenso.',
+        description: 'Leyenda congelada. Apertura frutal intensa de manzana y ciruela envuelta en frescura mentolada helada.',
         image: 'https://i.imgur.com/rjX630d.jpeg',
-        notes: ['Manzana', 'Ciruela', 'Cítricos', 'Notas Acuáticas'],
+        notes: ['Manzana', 'Limón Italiano', 'Bergamota', 'Anís Estrellado', 'Ciruela', 'Flor de Azahar', 'Cardamomo', 'Almizcle', 'Ambar', 'Madera a la Deriva', 'Musgo'],
+        accords: [
+                {
+                    "n": "Cítrico",
+                    "v": 100,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 95,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Fresco",
+                    "v": 90,
+                    "c": "#ADD8E6"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 85,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 70,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 60,
+                    "c": "#F0F8FF"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 50,
+                    "c": "#8B4513"
+                }
+            ],
         prices: { 3: 84.9, 5: 119.9, 10: 179.9 },
     },
     {
@@ -118,9 +656,41 @@ export const products: Product[] = [
         name: 'Urban Man Elixir',
         brand: 'Armaf',
         slug: 'urban-man-elixir',
-        description: 'Urbano, moderno y magnético. Para el hombre cosmopolita.',
+        description: 'Fusión magnética urbana. Notas especiadas, lavanda, y un potente fondo de ambroxan y maderas ahumadas. Híbrido de Sauvage y Aventus.',
         image: 'https://i.imgur.com/iiozczK.jpeg',
-        notes: ['Pimienta Rosa', 'Jazmín', 'Lavanda', 'Pachulí'],
+        notes: ['Bergamota', 'Pimienta Rosa', 'Jazmín', 'Flor de Azahar', 'Lavanda', 'Elemi', 'Geranio', 'Azafrán', 'Vetiver', 'Tagetes', 'Ambroxan', 'Ámbar', 'Pachulí', 'Cedro', 'Ládano'],
+        accords: [
+                {
+                    "n": "Ambarado",
+                    "v": 100,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 90,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 85,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 80,
+                    "c": "#4ade80"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 75,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Cálido Esp.",
+                    "v": 60,
+                    "c": "#B22222"
+                }
+            ],
         prices: { 3: 84.9, 5: 119.9, 10: 179.9 },
     },
     {
@@ -128,9 +698,46 @@ export const products: Product[] = [
         name: 'Yara',
         brand: 'Lattafa',
         slug: 'yara',
-        description: 'Dulce, cremoso y femenino. Un aroma viral que encanta.',
+        description: 'Nube rosa cremosa. Orquídeas, frutas tropicales y vainilla en una mezcla gourmand y esponjosa.',
         image: 'https://i.imgur.com/EwFVkSR.jpeg',
-        notes: ['Orquídea', 'Vainilla', 'Frutas Tropicales'],
+        notes: ['Heliotropo', 'Orquídea', 'Mandarina', 'Acorde Gourmand', 'Frutas Tropicales', 'Vainilla', 'Sándalo', 'Almizcle'],
+        accords: [
+                {
+                    "n": "Dulce",
+                    "v": 100,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 95,
+                    "c": "#FFB6C1"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 90,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Tropical",
+                    "v": 80,
+                    "c": "#FFA500"
+                },
+                {
+                    "n": "Floral",
+                    "v": 70,
+                    "c": "#FF1493"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 60,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 50,
+                    "c": "#F0F8FF"
+                }
+            ],
         prices: { 3: 79.9, 5: 109.9, 10: 179.9 },
     },
     {
@@ -138,9 +745,36 @@ export const products: Product[] = [
         name: 'Turathi Blue',
         brand: 'Afnan',
         slug: 'turathi-blue',
-        description: 'Cítrico y sofisticado, una joya oculta de la perfumería árabe.',
+        description: 'Lujo azul profundo. Explosión chispeante de cítricos vibrantes sobre un fondo rico de ámbar y almizcle. Inspirado en Tygar.',
         image: 'https://i.imgur.com/zndPWI4.png',
-        notes: ['Cítricos', 'Ámbar', 'Almizcle', 'Especias'],
+        notes: ['Cítricos', 'Ámbar', 'Notas Amaderadas', 'Almizcle', 'Pachulí', 'Especias'],
+        accords: [
+                {
+                    "n": "Cítrico",
+                    "v": 100,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 90,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 85,
+                    "c": "#D3D3D3"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 80,
+                    "c": "#40E0D0"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 60,
+                    "c": "#8B4513"
+                }
+            ],
         prices: { 3: 89.9, 5: 119.9, 10: 199.9 },
     },
     {
@@ -148,9 +782,46 @@ export const products: Product[] = [
         name: 'Odyssey White',
         brand: 'Armaf',
         slug: 'odyssey-white',
-        description: 'Elegancia pura en una botella. Fresco y versátil.',
+        description: 'Pureza y modernidad. Yuzu vibrante, pimienta rosa y maderas suaves en una composición limpia.',
         image: 'https://i.imgur.com/RuUAG56.jpeg',
-        notes: ['Bergamota', 'Lavanda', 'Maderas Blancas'],
+        notes: ['Pimienta Rosa', 'Yuzu', 'Toronja (Pomelo)', 'Hojas de Violeta', 'Notas Marinas', 'Ámbar', 'Amberwood', 'Madera de Gaiac'],
+        accords: [
+                {
+                    "n": "Ambarado",
+                    "v": 100,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 90,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 85,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Ozónico",
+                    "v": 70,
+                    "c": "#E0FFFF"
+                },
+                {
+                    "n": "Acuático",
+                    "v": 60,
+                    "c": "#00FFFF"
+                },
+                {
+                    "n": "Fresco",
+                    "v": 55,
+                    "c": "#ADD8E6"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 50,
+                    "c": "#4B0082"
+                }
+            ],
         prices: { 3: 78.9, 5: 108.9, 10: 178.9 },
     },
     {
@@ -158,9 +829,41 @@ export const products: Product[] = [
         name: 'Honor & Glory',
         brand: 'Lattafa',
         slug: 'honor-and-glory',
-        description: 'Una fragancia majestuosa con una apertura única de piña brulee.',
+        description: 'Opulencia dorada. Piña asada, crème brûlée cremosa, canela y especias exóticas.',
         image: 'https://i.imgur.com/Saa1zb1.jpeg',
-        notes: ['Piña', 'Crème Brûlée', 'Cúrcuma', 'Sándalo'],
+        notes: ['Piña', 'Crème Brûlée', 'Canela', 'Benjuí', 'Cúrcuma', 'Pimienta Negra', 'Vainilla', 'Sándalo', 'Cachemira', 'Musgo'],
+        accords: [
+                {
+                    "n": "Dulce",
+                    "v": 100,
+                    "c": "#FFD700"
+                },
+                {
+                    "n": "Cálido Esp.",
+                    "v": 95,
+                    "c": "#B22222"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 90,
+                    "c": "#FF8C00"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 85,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 80,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 70,
+                    "c": "#8B4513"
+                }
+            ],
         prices: { 3: 79.9, 5: 109.9, 10: 169.9 },
     },
     {
@@ -168,9 +871,46 @@ export const products: Product[] = [
         name: 'Sceptre Malachite',
         brand: 'Maison Alhambra',
         slug: 'sceptre-malachite',
-        description: 'Inspirado en gemas preciosas, un aroma verde y amaderado.',
+        description: 'Un néctar tropical vibrante. La jugosidad exótica del mango se mezcla con el picante del jengibre y la frescura de la bergamota. Dupe de God of Fire.',
         image: 'https://i.imgur.com/J5S486o.jpeg',
-        notes: ['Notas Verdes', 'Maderas', 'Ámbar'],
+        notes: ['Mango', 'Jengibre', 'Bayas Rojas', 'Limón', 'Bergamota', 'Notas Amaderadas', 'Almizcle', 'Ámbar'],
+        accords: [
+                {
+                    "n": "Tropical",
+                    "v": 100,
+                    "c": "#FF8C00"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 95,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 85,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 80,
+                    "c": "#4ade80"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 75,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 70,
+                    "c": "#D3D3D3"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 65,
+                    "c": "#FFBF00"
+                }
+            ],
         prices: { 3: 79.9, 5: 109.9, 10: 169.9 },
     },
     {
@@ -178,9 +918,46 @@ export const products: Product[] = [
         name: 'Jasoor',
         brand: 'Lattafa',
         slug: 'jasoor',
-        description: 'Potente y distintivo, para dejar huella.',
+        description: 'Magnetismo oscuro y seductor. Manzana crujiente sumergida en tabaco dulce y cuero. Similar a Coral Fantasy.',
         image: 'https://i.imgur.com/LDb4XC9.jpeg',
-        notes: ['Manzana', 'Cardamomo', 'Tabaco'],
+        notes: ['Manzana', 'Cardamomo', 'Bergamota', 'Tabaco', 'Lavanda', 'Geranio', 'Haba Tonka', 'Cuero', 'Vetiver', 'Pachulí'],
+        accords: [
+                {
+                    "n": "Afrutado",
+                    "v": 100,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 90,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Tabaco",
+                    "v": 85,
+                    "c": "#6F4E37"
+                },
+                {
+                    "n": "Cuero",
+                    "v": 80,
+                    "c": "#292524"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 75,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 70,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 60,
+                    "c": "#4ade80"
+                }
+            ],
         prices: { 3: 69.9, 5: 94.9, 10: 159.9 },
     },
     {
@@ -188,9 +965,46 @@ export const products: Product[] = [
         name: 'Odyssey Montagne',
         brand: 'Armaf',
         slug: 'odyssey-montagne',
-        description: 'Fresco y vigorizante, inspirado en el aire de montaña.',
+        description: 'Elegancia envolvente. Una mezcla cremosa y gourmand de almendra dulce, flores blancas y vainilla suave. Sofisticado y reconfortante.',
         image: 'https://i.imgur.com/09ZM78B.jpeg',
-        notes: ['Cítricos', 'Maderas', 'Notas Ozónicas'],
+        notes: ['Almendra', 'Lactonas', 'Especias', 'Flores Blancas', 'Vainilla', 'Cacao', 'Sándalo', 'Almizcle'],
+        accords: [
+                {
+                    "n": "Vainilla",
+                    "v": 100,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 90,
+                    "c": "#D3D3D3"
+                },
+                {
+                    "n": "Nuez",
+                    "v": 85,
+                    "c": "#CD853F"
+                },
+                {
+                    "n": "Floral",
+                    "v": 80,
+                    "c": "#FFC0CB"
+                },
+                {
+                    "n": "Dulce",
+                    "v": 75,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 70,
+                    "c": "#F0F8FF"
+                },
+                {
+                    "n": "Cacao",
+                    "v": 60,
+                    "c": "#654321"
+                }
+            ],
         prices: { 3: 78.9, 5: 108.9, 10: 178.9 },
     },
     {
@@ -198,9 +1012,46 @@ export const products: Product[] = [
         name: 'Hayaati',
         brand: 'Lattafa',
         slug: 'hayaati',
-        description: 'La esencia de la vida. Frutal, fresco y ligeramente dulce.',
+        description: 'Esencia de vida. Una mezcla dinámica de manzana fresca, canela picante y maderas. Versátil y enérgico.',
         image: 'https://i.imgur.com/3IpcVvF.jpeg',
-        notes: ['Manzana', 'Bergamota', 'Canela', 'Vainilla'],
+        notes: ['Manzana', 'Bergamota', 'Canela', 'Notas Amaderadas', 'Almizcle', 'Vainilla'],
+        accords: [
+                {
+                    "n": "Afrutado",
+                    "v": 100,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Cálido Esp.",
+                    "v": 90,
+                    "c": "#B22222"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 85,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Fresco",
+                    "v": 80,
+                    "c": "#ADD8E6"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 60,
+                    "c": "#D3D3D3"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 50,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 40,
+                    "c": "#FFB6C1"
+                }
+            ],
         prices: { 3: 69.9, 5: 94.9, 10: 149.9 },
     },
     {
@@ -208,9 +1059,46 @@ export const products: Product[] = [
         name: 'Fakhar Black',
         brand: 'Lattafa',
         slug: 'fakhar-black',
-        description: 'El clon perfecto de YSL Y. Versátil y cumplidor.',
+        description: 'Fougère moderno y elegante. Manzana dulce, jengibre picante y lavanda fresca. Inspirado en YSL Y.',
         image: 'https://i.imgur.com/M6fEBWT.jpeg',
-        notes: ['Manzana', 'Jengibre', 'Lavanda', 'Haba Tonka'],
+        notes: ['Manzana', 'Bergamota', 'Jengibre', 'Lavanda', 'Salvia', 'Bayas de Enebro', 'Geranio', 'Haba Tonka', 'Amberwood', 'Cedro', 'Vetiver'],
+        accords: [
+                {
+                    "n": "Aromático",
+                    "v": 100,
+                    "c": "#4B0082"
+                },
+                {
+                    "n": "Fresco Esp.",
+                    "v": 90,
+                    "c": "#4ade80"
+                },
+                {
+                    "n": "Amaderado",
+                    "v": 85,
+                    "c": "#8B4513"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 70,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 60,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Verde",
+                    "v": 55,
+                    "c": "#228B22"
+                },
+                {
+                    "n": "Lavanda",
+                    "v": 50,
+                    "c": "#E6E6FA"
+                }
+            ],
         prices: { 3: 79.9, 5: 109.9, 10: 169.9 },
     },
     {
@@ -218,9 +1106,46 @@ export const products: Product[] = [
         name: 'Now Woman',
         brand: 'Rave',
         slug: 'now-woman',
-        description: 'Una explosión de frutos rojos y malvavisco. Irresistible.',
+        description: 'Alegría rosa vibrante. Un cóctel de frutos rojos, malvaviscos esponjosos y vainilla dulce. Inspirado en Burberry Her Elixir.',
         image: 'https://i.imgur.com/bpuLdEk.jpeg',
-        notes: ['Frutos Rojos', 'Malvavisco', 'Vainilla'],
+        notes: ['Frutos Rojos', 'Naranja', 'Malvavisco', 'Jazmín', 'Lirio de los Valles', 'Vainilla', 'Musgo', 'Almizcle'],
+        accords: [
+                {
+                    "n": "Dulce",
+                    "v": 100,
+                    "c": "#FF69B4"
+                },
+                {
+                    "n": "Afrutado",
+                    "v": 95,
+                    "c": "#FF4500"
+                },
+                {
+                    "n": "Atalcado",
+                    "v": 85,
+                    "c": "#D8BFD8"
+                },
+                {
+                    "n": "Vainilla",
+                    "v": 80,
+                    "c": "#F3E5AB"
+                },
+                {
+                    "n": "Floral",
+                    "v": 60,
+                    "c": "#FFC0CB"
+                },
+                {
+                    "n": "Lactónico",
+                    "v": 50,
+                    "c": "#FFFDD0"
+                },
+                {
+                    "n": "Almizclado",
+                    "v": 40,
+                    "c": "#F0F8FF"
+                }
+            ],
         prices: { 3: 79.9, 5: 109.9, 10: 179.9 },
     },
     {
@@ -228,9 +1153,46 @@ export const products: Product[] = [
         name: 'Atlas',
         brand: 'Lattafa',
         slug: 'atlas',
-        description: 'Inspirado en Megamare. Potencia marina extrema.',
+        description: 'Fuerza del océano. Notas marinas intensas, sal marina, algas y rocas mojadas. Inspirado en Megamare.',
         image: 'https://i.imgur.com/KZa6jBa.jpeg',
-        notes: ['Notas Marinas', 'Algas', 'Almizcle', 'Limón'],
+        notes: ['Notas Marinas', 'Sal', 'Limón', 'Davana', 'Iris', 'Ámbar Gris', 'Musgo de Roble', 'Sándalo'],
+        accords: [
+                {
+                    "n": "Marino",
+                    "v": 100,
+                    "c": "#00008B"
+                },
+                {
+                    "n": "Salado",
+                    "v": 95,
+                    "c": "#A9A9A9"
+                },
+                {
+                    "n": "Aromático",
+                    "v": 85,
+                    "c": "#008080"
+                },
+                {
+                    "n": "Ambarado",
+                    "v": 80,
+                    "c": "#FFBF00"
+                },
+                {
+                    "n": "Acuático",
+                    "v": 75,
+                    "c": "#00FFFF"
+                },
+                {
+                    "n": "Cítrico",
+                    "v": 50,
+                    "c": "#FFFF00"
+                },
+                {
+                    "n": "Algas",
+                    "v": 45,
+                    "c": "#2E8B57"
+                }
+            ],
         prices: { 3: 148.9, 5: 199.9, 10: 348.9 },
     },
 ];

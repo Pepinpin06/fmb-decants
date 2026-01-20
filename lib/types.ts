@@ -13,6 +13,11 @@ export interface Product {
     description: string;
     image: string; // URL placeholder
     notes: string[]; // Simplification for now
+    accords?: {
+        name: string;
+        value: number;
+        color: string;
+    }[];
     prices: {
         [key in DecantSize]: number; // Price for each size
     };

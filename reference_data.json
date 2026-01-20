@@ -1,0 +1,1240 @@
+[
+    {
+        "brand": "Jean Paul Gaultier",
+        "name": "Le Beau Le Parfum",
+        "type": "Eau de Parfum Intense",
+        "desc": "Una interpretación diabólicamente irresistible. La frescura del jengibre y la piña se fusiona con la sensualidad viril del sándalo.",
+        "notes": [
+            "Piña",
+            "Iris",
+            "Ciprés",
+            "Jengibre",
+            "Coco",
+            "Haba Tonka",
+            "Sándalo",
+            "Ambar",
+            "Notas Amaderadas"
+        ],
+        "accords": [
+            {
+                "n": "Coco",
+                "v": 100,
+                "c": "#F5F5DC"
+            },
+            {
+                "n": "Dulce",
+                "v": 90,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Amaderado",
+                "v": 85,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Ambarado",
+                "v": 70,
+                "c": "#FF8C00"
+            },
+            {
+                "n": "Tropical",
+                "v": 65,
+                "c": "#FFD700"
+            },
+            {
+                "n": "Afrutado",
+                "v": 60,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Vainilla",
+                "v": 55,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Atalcado",
+                "v": 40,
+                "c": "#FFB6C1"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/a04sjov.png"
+    },
+    {
+        "brand": "Jean Paul Gaultier",
+        "name": "Paradise Garden",
+        "type": "Eau de Parfum",
+        "desc": "Un viaje acuático y verde. La frescura salada se encuentra con la dulzura cremosa del coco y el higo en un jardín exuberante.",
+        "notes": [
+            "Notas Verdes",
+            "Notas Acuosas",
+            "Menta",
+            "Jengibre",
+            "Coco",
+            "Higo",
+            "Sal",
+            "Haba Tonka",
+            "Sándalo"
+        ],
+        "accords": [
+            {
+                "n": "Verde",
+                "v": 100,
+                "c": "#228B22"
+            },
+            {
+                "n": "Coco",
+                "v": 90,
+                "c": "#F5F5DC"
+            },
+            {
+                "n": "Dulce",
+                "v": 80,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Aromático",
+                "v": 75,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Acuático",
+                "v": 70,
+                "c": "#00FFFF"
+            },
+            {
+                "n": "Fresco",
+                "v": 65,
+                "c": "#ADD8E6"
+            },
+            {
+                "n": "Salado",
+                "v": 60,
+                "c": "#A9A9A9"
+            },
+            {
+                "n": "Cítrico",
+                "v": 50,
+                "c": "#FFFF00"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/gyjNwAp.jpeg"
+    },
+    {
+        "brand": "Jean Paul Gaultier",
+        "name": "Le Male Elixir",
+        "type": "Parfum",
+        "desc": "Marinero ardiente. Lavanda aromática bañada en miel dorada y tabaco, creando una estela adictiva y lujosa.",
+        "notes": [
+            "Lavanda",
+            "Menta",
+            "Vainilla",
+            "Benjuí",
+            "Miel",
+            "Tabaco",
+            "Haba Tonka"
+        ],
+        "accords": [
+            {
+                "n": "Dulce",
+                "v": 100,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Vainilla",
+                "v": 95,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Miel",
+                "v": 90,
+                "c": "#D2691E"
+            },
+            {
+                "n": "Ambarado",
+                "v": 85,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Aromático",
+                "v": 70,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Tabaco",
+                "v": 65,
+                "c": "#6F4E37"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 60,
+                "c": "#FF7F50"
+            },
+            {
+                "n": "Lavanda",
+                "v": 50,
+                "c": "#E6E6FA"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/PTemlE2.jpeg"
+    },
+    {
+        "brand": "Valentino",
+        "name": "Born in Roma Intense",
+        "type": "Eau de Parfum Intense",
+        "desc": "Homenaje a Roma. Vainilla sensual amplificada por vetiver ahumado y lavanda vibrante.",
+        "notes": [
+            "Vainilla",
+            "Lavanda",
+            "Vetiver",
+            "Jengibre",
+            "Notas Amaderadas"
+        ],
+        "accords": [
+            {
+                "n": "Vainilla",
+                "v": 100,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Ambarado",
+                "v": 90,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Lavanda",
+                "v": 85,
+                "c": "#E6E6FA"
+            },
+            {
+                "n": "Aromático",
+                "v": 80,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 70,
+                "c": "#FF7F50"
+            },
+            {
+                "n": "Amaderado",
+                "v": 60,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Atalcado",
+                "v": 50,
+                "c": "#FFB6C1"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/ASBcINI.jpeg"
+    },
+    {
+        "brand": "YSL",
+        "name": "Y Eau de Parfum",
+        "type": "Eau de Parfum",
+        "desc": "Frescura profunda. Manzana crujiente se encuentra con salvia aromática, geranio y maderas ambarinas.",
+        "notes": [
+            "Manzana",
+            "Jengibre",
+            "Bergamota",
+            "Salvia",
+            "Bayas de Enebro",
+            "Geranio",
+            "Amberwood",
+            "Haba Tonka",
+            "Cedro",
+            "Vetiver",
+            "Olíbano"
+        ],
+        "accords": [
+            {
+                "n": "Aromático",
+                "v": 100,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 90,
+                "c": "#FF7F50"
+            },
+            {
+                "n": "Amaderado",
+                "v": 85,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Cítrico",
+                "v": 80,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Ambarado",
+                "v": 70,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Herbal",
+                "v": 60,
+                "c": "#228B22"
+            },
+            {
+                "n": "Afrutado",
+                "v": 50,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Fresco",
+                "v": 40,
+                "c": "#ADD8E6"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/ObxsEAp.jpeg"
+    },
+    {
+        "brand": "Jean Paul Gaultier",
+        "name": "Scandal Le Parfum",
+        "type": "Eau de Parfum Intense",
+        "desc": "Uppercut de sensaciones. Geranio intenso, maderas cálidas, haba tonka y un toque de caramelo.",
+        "notes": [
+            "Geranio",
+            "Haba Tonka",
+            "Sándalo",
+            "Caramelo"
+        ],
+        "accords": [
+            {
+                "n": "Ambarado",
+                "v": 100,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Dulce",
+                "v": 95,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Aromático",
+                "v": 85,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Amaderado",
+                "v": 80,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Cálido Esp.",
+                "v": 70,
+                "c": "#B22222"
+            },
+            {
+                "n": "Caramelo",
+                "v": 60,
+                "c": "#D2691E"
+            },
+            {
+                "n": "Cítrico",
+                "v": 50,
+                "c": "#FFFF00"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/D4NX1DB.jpeg"
+    },
+    {
+        "brand": "Armaf",
+        "name": "Odyssey Aqua",
+        "type": "Eau de Parfum",
+        "desc": "Ráfaga marina moderna. Pomelo vibrante, notas acuáticas, menta y un fondo amaderado. Inspirado en Invictus Platinum.",
+        "notes": [
+            "Toronja (Pomelo)",
+            "Notas Marinas",
+            "Violeta",
+            "Menta",
+            "Ciprés",
+            "Amberwood"
+        ],
+        "accords": [
+            {
+                "n": "Cítrico",
+                "v": 100,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Aromático",
+                "v": 95,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Marino",
+                "v": 90,
+                "c": "#00FFFF"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 80,
+                "c": "#4ade80"
+            },
+            {
+                "n": "Amaderado",
+                "v": 70,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Verde",
+                "v": 60,
+                "c": "#228B22"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/1riqqdz.jpeg"
+    },
+    {
+        "brand": "French Avenue",
+        "name": "Liquid Brun",
+        "type": "Eau de Parfum",
+        "desc": "Una sobredosis de vainilla bourbon y praliné. Cálido, especiado y lujosamente envolvente. Inspirado en Althaïr de PDM.",
+        "notes": [
+            "Vainilla Bourbon",
+            "Praliné",
+            "Canela",
+            "Cardamomo",
+            "Flor de Azahar",
+            "Madera de Gaiac",
+            "Almizcle",
+            "Bergamota"
+        ],
+        "accords": [
+            {
+                "n": "Vainilla",
+                "v": 100,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Dulce",
+                "v": 95,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Cálido Esp.",
+                "v": 90,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Amaderado",
+                "v": 70,
+                "c": "#654321"
+            },
+            {
+                "n": "Atalcado",
+                "v": 60,
+                "c": "#E6E6FA"
+            },
+            {
+                "n": "Almizclado",
+                "v": 50,
+                "c": "#D3D3D3"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/P1RrbQJ.jpeg"
+    },
+    {
+        "brand": "Rasasi",
+        "name": "Hawas Fire",
+        "type": "Eau de Parfum",
+        "desc": "La intensidad del fuego. Manzana roja dulce y ciruela se encuentran con especias vibrantes y un fondo de ámbar gris. Audaz y seductor.",
+        "notes": [
+            "Manzana Roja",
+            "Ciruela",
+            "Anís Estrellado",
+            "Limón",
+            "Cardamomo",
+            "Ámbar Gris",
+            "Madera Flotante",
+            "Musgo"
+        ],
+        "accords": [
+            {
+                "n": "Afrutado",
+                "v": 100,
+                "c": "#FF0000"
+            },
+            {
+                "n": "Dulce",
+                "v": 90,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 80,
+                "c": "#FFA500"
+            },
+            {
+                "n": "Ambarado",
+                "v": 75,
+                "c": "#FF8C00"
+            },
+            {
+                "n": "Marino",
+                "v": 60,
+                "c": "#00BFFF"
+            },
+            {
+                "n": "Cítrico",
+                "v": 50,
+                "c": "#FFFF00"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/OlDTK2q.jpeg"
+    },
+    {
+        "brand": "Lattafa",
+        "name": "Khamrah Qahwa",
+        "type": "Eau de Parfum",
+        "desc": "Riqueza del café árabe. Gourmand sofisticado con praliné, canela, café tostado y vainilla.",
+        "notes": [
+            "Canela",
+            "Cardamomo",
+            "Jengibre",
+            "Praliné",
+            "Frutas Confitadas",
+            "Flores Blancas",
+            "Café",
+            "Vainilla",
+            "Haba Tonka",
+            "Benjuí",
+            "Almizcle"
+        ],
+        "accords": [
+            {
+                "n": "Cálido Esp.",
+                "v": 100,
+                "c": "#B22222"
+            },
+            {
+                "n": "Dulce",
+                "v": 95,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Café",
+                "v": 90,
+                "c": "#654321"
+            },
+            {
+                "n": "Ambarado",
+                "v": 85,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Vainilla",
+                "v": 80,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Amaderado",
+                "v": 70,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Canela",
+                "v": 60,
+                "c": "#D2691E"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/O9uMmri.jpeg"
+    },
+    {
+        "brand": "Rasasi",
+        "name": "Hawas Ice",
+        "type": "Eau de Parfum",
+        "desc": "Leyenda congelada. Apertura frutal intensa de manzana y ciruela envuelta en frescura mentolada helada.",
+        "notes": [
+            "Manzana",
+            "Limón Italiano",
+            "Bergamota",
+            "Anís Estrellado",
+            "Ciruela",
+            "Flor de Azahar",
+            "Cardamomo",
+            "Almizcle",
+            "Ambar",
+            "Madera a la Deriva",
+            "Musgo"
+        ],
+        "accords": [
+            {
+                "n": "Cítrico",
+                "v": 100,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Afrutado",
+                "v": 95,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Fresco",
+                "v": 90,
+                "c": "#ADD8E6"
+            },
+            {
+                "n": "Aromático",
+                "v": 85,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Dulce",
+                "v": 70,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Almizclado",
+                "v": 60,
+                "c": "#F0F8FF"
+            },
+            {
+                "n": "Amaderado",
+                "v": 50,
+                "c": "#8B4513"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/rjX630d.jpeg"
+    },
+    {
+        "brand": "Armaf",
+        "name": "Urban Man Elixir",
+        "type": "Eau de Parfum",
+        "desc": "Fusión magnética urbana. Notas especiadas, lavanda, y un potente fondo de ambroxan y maderas ahumadas. Híbrido de Sauvage y Aventus.",
+        "notes": [
+            "Bergamota",
+            "Pimienta Rosa",
+            "Jazmín",
+            "Flor de Azahar",
+            "Lavanda",
+            "Elemi",
+            "Geranio",
+            "Azafrán",
+            "Vetiver",
+            "Tagetes",
+            "Ambroxan",
+            "Ámbar",
+            "Pachulí",
+            "Cedro",
+            "Ládano"
+        ],
+        "accords": [
+            {
+                "n": "Ambarado",
+                "v": 100,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Aromático",
+                "v": 90,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Cítrico",
+                "v": 85,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 80,
+                "c": "#4ade80"
+            },
+            {
+                "n": "Amaderado",
+                "v": 75,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Cálido Esp.",
+                "v": 60,
+                "c": "#B22222"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/iiozczK.jpeg"
+    },
+    {
+        "brand": "Lattafa",
+        "name": "Yara",
+        "type": "Eau de Parfum",
+        "desc": "Nube rosa cremosa. Orquídeas, frutas tropicales y vainilla en una mezcla gourmand y esponjosa.",
+        "notes": [
+            "Heliotropo",
+            "Orquídea",
+            "Mandarina",
+            "Acorde Gourmand",
+            "Frutas Tropicales",
+            "Vainilla",
+            "Sándalo",
+            "Almizcle"
+        ],
+        "accords": [
+            {
+                "n": "Dulce",
+                "v": 100,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Atalcado",
+                "v": 95,
+                "c": "#FFB6C1"
+            },
+            {
+                "n": "Vainilla",
+                "v": 90,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Tropical",
+                "v": 80,
+                "c": "#FFA500"
+            },
+            {
+                "n": "Floral",
+                "v": 70,
+                "c": "#FF1493"
+            },
+            {
+                "n": "Afrutado",
+                "v": 60,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Almizclado",
+                "v": 50,
+                "c": "#F0F8FF"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/EwFVkSR.jpeg"
+    },
+    {
+        "brand": "Afnan",
+        "name": "Turathi Blue",
+        "type": "Eau de Parfum",
+        "desc": "Lujo azul profundo. Explosión chispeante de cítricos vibrantes sobre un fondo rico de ámbar y almizcle. Inspirado en Tygar.",
+        "notes": [
+            "Cítricos",
+            "Ámbar",
+            "Notas Amaderadas",
+            "Almizcle",
+            "Pachulí",
+            "Especias"
+        ],
+        "accords": [
+            {
+                "n": "Cítrico",
+                "v": 100,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Ambarado",
+                "v": 90,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Almizclado",
+                "v": 85,
+                "c": "#D3D3D3"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 80,
+                "c": "#40E0D0"
+            },
+            {
+                "n": "Amaderado",
+                "v": 60,
+                "c": "#8B4513"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/zndPWI4.png"
+    },
+    {
+        "brand": "Armaf",
+        "name": "Odyssey White",
+        "type": "Eau de Parfum",
+        "desc": "Pureza y modernidad. Yuzu vibrante, pimienta rosa y maderas suaves en una composición limpia.",
+        "notes": [
+            "Pimienta Rosa",
+            "Yuzu",
+            "Toronja (Pomelo)",
+            "Hojas de Violeta",
+            "Notas Marinas",
+            "Ámbar",
+            "Amberwood",
+            "Madera de Gaiac"
+        ],
+        "accords": [
+            {
+                "n": "Ambarado",
+                "v": 100,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Amaderado",
+                "v": 90,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Cítrico",
+                "v": 85,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Ozónico",
+                "v": 70,
+                "c": "#E0FFFF"
+            },
+            {
+                "n": "Acuático",
+                "v": 60,
+                "c": "#00FFFF"
+            },
+            {
+                "n": "Fresco",
+                "v": 55,
+                "c": "#ADD8E6"
+            },
+            {
+                "n": "Aromático",
+                "v": 50,
+                "c": "#4B0082"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/RuUAG56.jpeg"
+    },
+    {
+        "brand": "Lattafa",
+        "name": "Honor & Glory",
+        "type": "Eau de Parfum",
+        "desc": "Opulencia dorada. Piña asada, crème brûlée cremosa, canela y especias exóticas.",
+        "notes": [
+            "Piña",
+            "Crème Brûlée",
+            "Canela",
+            "Benjuí",
+            "Cúrcuma",
+            "Pimienta Negra",
+            "Vainilla",
+            "Sándalo",
+            "Cachemira",
+            "Musgo"
+        ],
+        "accords": [
+            {
+                "n": "Dulce",
+                "v": 100,
+                "c": "#FFD700"
+            },
+            {
+                "n": "Cálido Esp.",
+                "v": 95,
+                "c": "#B22222"
+            },
+            {
+                "n": "Afrutado",
+                "v": 90,
+                "c": "#FF8C00"
+            },
+            {
+                "n": "Vainilla",
+                "v": 85,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Ambarado",
+                "v": 80,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Amaderado",
+                "v": 70,
+                "c": "#8B4513"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/Saa1zb1.jpeg"
+    },
+    {
+        "brand": "Maison Alhambra",
+        "name": "Sceptre Malachite",
+        "type": "Eau de Parfum",
+        "desc": "Un néctar tropical vibrante. La jugosidad exótica del mango se mezcla con el picante del jengibre y la frescura de la bergamota. Dupe de God of Fire.",
+        "notes": [
+            "Mango",
+            "Jengibre",
+            "Bayas Rojas",
+            "Limón",
+            "Bergamota",
+            "Notas Amaderadas",
+            "Almizcle",
+            "Ámbar"
+        ],
+        "accords": [
+            {
+                "n": "Tropical",
+                "v": 100,
+                "c": "#FF8C00"
+            },
+            {
+                "n": "Afrutado",
+                "v": 95,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Cítrico",
+                "v": 85,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 80,
+                "c": "#4ade80"
+            },
+            {
+                "n": "Dulce",
+                "v": 75,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Almizclado",
+                "v": 70,
+                "c": "#D3D3D3"
+            },
+            {
+                "n": "Ambarado",
+                "v": 65,
+                "c": "#FFBF00"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/J5S486o.jpeg"
+    },
+    {
+        "brand": "Lattafa",
+        "name": "Jasoor",
+        "type": "Eau de Parfum",
+        "desc": "Magnetismo oscuro y seductor. Manzana crujiente sumergida en tabaco dulce y cuero. Similar a Coral Fantasy.",
+        "notes": [
+            "Manzana",
+            "Cardamomo",
+            "Bergamota",
+            "Tabaco",
+            "Lavanda",
+            "Geranio",
+            "Haba Tonka",
+            "Cuero",
+            "Vetiver",
+            "Pachulí"
+        ],
+        "accords": [
+            {
+                "n": "Afrutado",
+                "v": 100,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Dulce",
+                "v": 90,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Tabaco",
+                "v": 85,
+                "c": "#6F4E37"
+            },
+            {
+                "n": "Cuero",
+                "v": 80,
+                "c": "#292524"
+            },
+            {
+                "n": "Amaderado",
+                "v": 75,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Aromático",
+                "v": 70,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 60,
+                "c": "#4ade80"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/LDb4XC9.jpeg"
+    },
+    {
+        "brand": "Armaf",
+        "name": "Odyssey Montagne",
+        "type": "Eau de Parfum",
+        "desc": "Elegancia envolvente. Una mezcla cremosa y gourmand de almendra dulce, flores blancas y vainilla suave. Sofisticado y reconfortante.",
+        "notes": [
+            "Almendra",
+            "Lactonas",
+            "Especias",
+            "Flores Blancas",
+            "Vainilla",
+            "Cacao",
+            "Sándalo",
+            "Almizcle"
+        ],
+        "accords": [
+            {
+                "n": "Vainilla",
+                "v": 100,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Atalcado",
+                "v": 90,
+                "c": "#D3D3D3"
+            },
+            {
+                "n": "Nuez",
+                "v": 85,
+                "c": "#CD853F"
+            },
+            {
+                "n": "Floral",
+                "v": 80,
+                "c": "#FFC0CB"
+            },
+            {
+                "n": "Dulce",
+                "v": 75,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Almizclado",
+                "v": 70,
+                "c": "#F0F8FF"
+            },
+            {
+                "n": "Cacao",
+                "v": 60,
+                "c": "#654321"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/09ZM78B.jpeg"
+    },
+    {
+        "brand": "Lattafa",
+        "name": "Hayaati",
+        "type": "Eau de Parfum",
+        "desc": "Esencia de vida. Una mezcla dinámica de manzana fresca, canela picante y maderas. Versátil y enérgico.",
+        "notes": [
+            "Manzana",
+            "Bergamota",
+            "Canela",
+            "Notas Amaderadas",
+            "Almizcle",
+            "Vainilla"
+        ],
+        "accords": [
+            {
+                "n": "Afrutado",
+                "v": 100,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Cálido Esp.",
+                "v": 90,
+                "c": "#B22222"
+            },
+            {
+                "n": "Amaderado",
+                "v": 85,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Fresco",
+                "v": 80,
+                "c": "#ADD8E6"
+            },
+            {
+                "n": "Almizclado",
+                "v": 60,
+                "c": "#D3D3D3"
+            },
+            {
+                "n": "Cítrico",
+                "v": 50,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Atalcado",
+                "v": 40,
+                "c": "#FFB6C1"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/3IpcVvF.jpeg"
+    },
+    {
+        "brand": "Lattafa",
+        "name": "Fakhar Black",
+        "type": "Eau de Parfum",
+        "desc": "Fougère moderno y elegante. Manzana dulce, jengibre picante y lavanda fresca. Inspirado en YSL Y.",
+        "notes": [
+            "Manzana",
+            "Bergamota",
+            "Jengibre",
+            "Lavanda",
+            "Salvia",
+            "Bayas de Enebro",
+            "Geranio",
+            "Haba Tonka",
+            "Amberwood",
+            "Cedro",
+            "Vetiver"
+        ],
+        "accords": [
+            {
+                "n": "Aromático",
+                "v": 100,
+                "c": "#4B0082"
+            },
+            {
+                "n": "Fresco Esp.",
+                "v": 90,
+                "c": "#4ade80"
+            },
+            {
+                "n": "Amaderado",
+                "v": 85,
+                "c": "#8B4513"
+            },
+            {
+                "n": "Cítrico",
+                "v": 70,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Afrutado",
+                "v": 60,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Verde",
+                "v": 55,
+                "c": "#228B22"
+            },
+            {
+                "n": "Lavanda",
+                "v": 50,
+                "c": "#E6E6FA"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/M6fEBWT.jpeg"
+    },
+    {
+        "brand": "Rave",
+        "name": "Now Woman",
+        "type": "Eau de Parfum",
+        "desc": "Alegría rosa vibrante. Un cóctel de frutos rojos, malvaviscos esponjosos y vainilla dulce. Inspirado en Burberry Her Elixir.",
+        "notes": [
+            "Frutos Rojos",
+            "Naranja",
+            "Malvavisco",
+            "Jazmín",
+            "Lirio de los Valles",
+            "Vainilla",
+            "Musgo",
+            "Almizcle"
+        ],
+        "accords": [
+            {
+                "n": "Dulce",
+                "v": 100,
+                "c": "#FF69B4"
+            },
+            {
+                "n": "Afrutado",
+                "v": 95,
+                "c": "#FF4500"
+            },
+            {
+                "n": "Atalcado",
+                "v": 85,
+                "c": "#D8BFD8"
+            },
+            {
+                "n": "Vainilla",
+                "v": 80,
+                "c": "#F3E5AB"
+            },
+            {
+                "n": "Floral",
+                "v": 60,
+                "c": "#FFC0CB"
+            },
+            {
+                "n": "Lactónico",
+                "v": 50,
+                "c": "#FFFDD0"
+            },
+            {
+                "n": "Almizclado",
+                "v": 40,
+                "c": "#F0F8FF"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/bpuLdEk.jpeg"
+    },
+    {
+        "brand": "Lattafa",
+        "name": "Atlas",
+        "type": "Eau de Parfum",
+        "desc": "Fuerza del océano. Notas marinas intensas, sal marina, algas y rocas mojadas. Inspirado en Megamare.",
+        "notes": [
+            "Notas Marinas",
+            "Sal",
+            "Limón",
+            "Davana",
+            "Iris",
+            "Ámbar Gris",
+            "Musgo de Roble",
+            "Sándalo"
+        ],
+        "accords": [
+            {
+                "n": "Marino",
+                "v": 100,
+                "c": "#00008B"
+            },
+            {
+                "n": "Salado",
+                "v": 95,
+                "c": "#A9A9A9"
+            },
+            {
+                "n": "Aromático",
+                "v": 85,
+                "c": "#008080"
+            },
+            {
+                "n": "Ambarado",
+                "v": 80,
+                "c": "#FFBF00"
+            },
+            {
+                "n": "Acuático",
+                "v": 75,
+                "c": "#00FFFF"
+            },
+            {
+                "n": "Cítrico",
+                "v": 50,
+                "c": "#FFFF00"
+            },
+            {
+                "n": "Algas",
+                "v": 45,
+                "c": "#2E8B57"
+            }
+        ],
+        "imgUrl": "https://i.imgur.com/KZa6jBa.jpeg"
+    }
+]
