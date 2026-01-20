@@ -140,7 +140,12 @@ export default function CatalogPage() {
                         className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12"
                     >
                         {filteredProducts.map((product) => (
-                            <motion.div key={product.id} variants={item}>
+                            <motion.div
+                                key={product.id}
+                                variants={item}
+                                whileHover={{ y: -8, transition: { type: "spring", stiffness: 400, damping: 25 } }}
+                                viewport={{ once: true, margin: "-50px" }}
+                            >
                                 <ProductCard product={product} />
                             </motion.div>
                         ))}

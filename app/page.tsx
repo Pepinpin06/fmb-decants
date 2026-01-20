@@ -129,6 +129,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
+                whileHover={{ y: -10 }}
                 transition={{ delay: idx * 0.1 }}
                 className={cn(
                   "group relative aspect-[3/4] bg-neutral-900 overflow-hidden border border-white/5 hover:border-white/20 transition-all duration-500",
