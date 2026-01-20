@@ -16,7 +16,7 @@ export default function PayPalWrapper({ amount, onSuccess }: PayPalWrapperProps)
         // Safe check for env var on client side mount
         const key = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
         if (key) {
-            setClientId(key);
+            setClientId(key.trim());
         } else {
             setError("Falta la CLAVE DE CLIENTE (NEXT_PUBLIC_PAYPAL_CLIENT_ID).");
         }
