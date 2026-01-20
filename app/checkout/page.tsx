@@ -410,7 +410,7 @@ export default function CheckoutPage() {
                                                     <ShieldCheck className="w-5 h-5 text-primary" />
                                                     <span className="text-sm text-gray-300">Pagos procesados de forma segura por PayPal.</span>
                                                 </div>
-                                                <PayPalWrapper
+                                                {/* <PayPalWrapper
                                                     amount={total}
                                                     onSuccess={async (details: any) => {
                                                         try {
@@ -430,7 +430,11 @@ export default function CheckoutPage() {
                                                             }
                                                         } catch (e) { console.error(e); alert("Error."); }
                                                     }}
-                                                />
+                                                /> */}
+                                                <div className="p-6 bg-yellow-500/10 border border-yellow-500/20 text-yellow-200 rounded-lg text-center">
+                                                    <p className="font-bold mb-2">PayPal en mantenimiento ⚠️</p>
+                                                    <p className="text-sm opacity-80">Por favor utiliza la opción de "Transferencia" para finalizar tu compra ahora mismo.</p>
+                                                </div>
                                             </>
                                         ) : (
                                             <div className="space-y-6">
