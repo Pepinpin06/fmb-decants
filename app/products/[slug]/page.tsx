@@ -27,7 +27,7 @@ export default async function ProductPage({ params }: PageProps) {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
 
                 {/* Product Image Stage */}
-                <div className="relative aspect-[3/4] bg-neutral-900 rounded-lg overflow-hidden border border-white/5 sticky top-24">
+                <div className="relative aspect-[3/4] bg-neutral-900 rounded-lg overflow-hidden border border-white/5 lg:sticky lg:top-24">
                     <Image
                         src={product.image}
                         alt={product.name}
