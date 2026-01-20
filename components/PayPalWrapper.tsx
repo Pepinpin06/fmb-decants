@@ -18,9 +18,19 @@ interface PayPalWrapperProps {
 export default function PayPalWrapper({ amount, onSuccess }: PayPalWrapperProps) {
     const [error, setError] = useState<string | null>(null);
 
+    const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
+
+    if (!clientId) {
+        return (
+            <div className="p-4 bg-red-500/10 border border-red-500/20 rounded-lg text-red-500 text-sm text-center">
+                Error de configuración: Falta el Client ID de PayPal.
+            </div>
+        );
+    }
+
     return (
         <div className="w-full z-0 relative">
-            <PayPalScriptProvider options={initialOptions}>
+            <PayPalScriptProvider options={{ ...initialOptions, clientId }}>
                 <PayPalButtons
                     style={{ layout: "vertical", color: "gold", shape: "rect", label: "pay" }}
                     createOrder={async () => {
