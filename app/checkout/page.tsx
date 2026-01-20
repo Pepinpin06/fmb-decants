@@ -8,6 +8,7 @@ import Image from "next/image";
 import PayPalWrapper from "@/components/PayPalWrapper";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import ErrorBoundary from "@/components/ErrorBoundary";
 
 // InputField moved OUTSIDE the component to prevent re-renders losing focus
 const InputField = ({ label, value, onChange, error, className, ...props }: any) => (
@@ -410,31 +411,30 @@ export default function CheckoutPage() {
                                                     <ShieldCheck className="w-5 h-5 text-primary" />
                                                     <span className="text-sm text-gray-300">Pagos procesados de forma segura por PayPal.</span>
                                                 </div>
-                                                {/* <PayPalWrapper
-                                                    amount={total}
-                                                    onSuccess={async (details: any) => {
-                                                        try {
-                                                            const orderData = {
-                                                                orderId: details.id,
-                                                                paymentMethod: 'paypal',
-                                                                items: items,
-                                                                amount: { total, subtotal, shipping: shippingCost },
-                                                                shipping: { firstName, lastName, email, phone, street, exteriorNumber, interiorNumber, references, colonia: selectedColonia, city, state, zipCode },
-                                                                customer: { name: `${firstName} ${lastName}`, email: email }
-                                                            };
+                                                {/* PayPal Section with Error Boundary */}
+                                                <ErrorBoundary>
+                                                    <PayPalWrapper
+                                                        amount={total}
+                                                        onSuccess={async (details: any) => {
+                                                            try {
+                                                                const orderData = {
+                                                                    orderId: details.id,
+                                                                    paymentMethod: 'paypal',
+                                                                    items: items,
+                                                                    amount: { total, subtotal, shipping: shippingCost },
+                                                                    shipping: { firstName, lastName, email, phone, street, exteriorNumber, interiorNumber, references, colonia: selectedColonia, city, state, zipCode },
+                                                                    customer: { name: `${firstName} ${lastName}`, email: email }
+                                                                };
 
-                                                            const res = await fetch('/api/orders', { method: 'POST', body: JSON.stringify(orderData) });
-                                                            if (res.ok) {
-                                                                clearCart();
-                                                                router.push('/orders');
-                                                            }
-                                                        } catch (e) { console.error(e); alert("Error."); }
-                                                    }}
-                                                /> */}
-                                                <div className="p-6 bg-yellow-500/10 border border-yellow-500/20 text-yellow-200 rounded-lg text-center">
-                                                    <p className="font-bold mb-2">PayPal en mantenimiento ⚠️</p>
-                                                    <p className="text-sm opacity-80">Por favor utiliza la opción de "Transferencia" para finalizar tu compra ahora mismo.</p>
-                                                </div>
+                                                                const res = await fetch('/api/orders', { method: 'POST', body: JSON.stringify(orderData) });
+                                                                if (res.ok) {
+                                                                    clearCart();
+                                                                    router.push('/orders');
+                                                                }
+                                                            } catch (e) { console.error(e); alert("Error al procesar pedido."); }
+                                                        }}
+                                                    />
+                                                </ErrorBoundary>
                                             </>
                                         ) : (
                                             <div className="space-y-6">
