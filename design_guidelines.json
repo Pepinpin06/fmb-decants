@@ -1,0 +1,180 @@
+{
+    "design_system": {
+        "identity": {
+            "name": "E1_Decant_Boutique",
+            "tone": "Luxury, Mysterious, Vibrant, Exclusive",
+            "target_audience": "Young adults and adults in Mexico, perfume enthusiasts, luxury seekers on a budget",
+            "core_values": [
+                "Fusion over Imitation",
+                "Emotion First",
+                "Content is King",
+                "Zoom In (Details)",
+                "Negative Space"
+            ]
+        },
+        "typography": {
+            "font_family": {
+                "headings": "Playfair Display, serif",
+                "body": "Manrope, sans-serif",
+                "accent": "Cinzel, serif"
+            },
+            "scale": {
+                "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-none",
+                "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+                "h3": "text-2xl md:text-3xl font-medium",
+                "body_lg": "text-lg leading-relaxed",
+                "body_base": "text-base leading-relaxed text-white/80",
+                "caption": "text-xs uppercase tracking-[0.2em] text-white/50"
+            },
+            "usage_rules": [
+                "Use Playfair Display for all major headings (H1-H3).",
+                "Use Manrope for all body text, inputs, and UI elements.",
+                "Use Cinzel sparingly for 'Limited Edition' tags or price overlays.",
+                "Headings must have tight tracking (-0.02em).",
+                "Captions must be uppercase with wide tracking (0.2em)."
+            ]
+        },
+        "colors": {
+            "palette": {
+                "background": {
+                    "default": "#050505",
+                    "paper": "#0A0A0A",
+                    "subtle": "#121212"
+                },
+                "primary": {
+                    "main": "#D4AF37",
+                    "light": "#F4CF57",
+                    "dark": "#A48625",
+                    "contrast": "#000000"
+                },
+                "secondary": {
+                    "main": "#1B93A4",
+                    "dark": "#0F5C66",
+                    "light": "#4FD1E3"
+                },
+                "accent": {
+                    "vibrant": "#FF3B30",
+                    "glow": "rgba(212, 175, 55, 0.5)"
+                },
+                "text": {
+                    "primary": "#FFFFFF",
+                    "secondary": "#A1A1AA",
+                    "muted": "#52525B"
+                },
+                "border": {
+                    "default": "rgba(255, 255, 255, 0.1)",
+                    "active": "rgba(212, 175, 55, 0.3)"
+                }
+            },
+            "gradients": {
+                "gold_rush": "linear-gradient(135deg, #D4AF37 0%, #A48625 100%)",
+                "dark_mist": "linear-gradient(to bottom, rgba(5,5,5,0) 0%, #050505 100%)",
+                "glass_surface": "linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%)"
+            }
+        },
+        "layout": {
+            "spacing": {
+                "container_padding": "p-6 md:p-12 lg:p-24",
+                "section_gap": "gap-16 md:gap-32",
+                "element_gap": "gap-4 md:gap-8"
+            },
+            "grid_system": {
+                "bento_marketing": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-4 md:gap-8",
+                "product_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12"
+            },
+            "container_width": "max-w-7xl mx-auto"
+        },
+        "components": {
+            "buttons": {
+                "primary": "bg-[#D4AF37] text-black hover:bg-[#F4CF57] rounded-full px-8 py-3 font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(212,175,55,0.4)]",
+                "outline": "border border-white/20 text-white hover:border-[#D4AF37] hover:text-[#D4AF37] rounded-full px-8 py-3 transition-all duration-300 bg-transparent backdrop-blur-sm",
+                "ghost": "text-white/70 hover:text-white hover:bg-white/5 rounded-lg px-4 py-2 transition-colors"
+            },
+            "cards": {
+                "product": "group relative bg-[#0A0A0A] border border-white/5 rounded-xl overflow-hidden hover:border-[#D4AF37]/30 transition-all duration-500",
+                "feature": "bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-2xl hover:bg-white/10 transition-all duration-300"
+            },
+            "inputs": {
+                "default": "bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder:text-white/30 focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] outline-none transition-all"
+            }
+        },
+        "visual_enhancers": {
+            "glassmorphism": "backdrop-blur-xl bg-black/40 border border-white/10",
+            "shadows": {
+                "glow": "0 0 40px -10px rgba(212, 175, 55, 0.15)",
+                "deep": "0 20px 40px -20px rgba(0,0,0,0.8)"
+            },
+            "borders": {
+                "subtle": "1px solid rgba(255,255,255,0.08)",
+                "highlight": "1px solid rgba(212,175,55,0.4)"
+            }
+        },
+        "motion": {
+            "principles": [
+                "Smooth, fluid transitions (0.4s - 0.6s)",
+                "Staggered entrances for lists/grids",
+                "Parallax effects on scroll for images",
+                "Magnetic hover effects on primary buttons"
+            ],
+            "transitions": {
+                "default": "transition-all duration-300 ease-out",
+                "slow": "transition-all duration-700 ease-[0.22, 1, 0.36, 1]"
+            }
+        },
+        "assets": {
+            "images": {
+                "hero_bg": "https://images.pexels.com/photos/13767420/pexels-photo-13767420.jpeg",
+                "texture_overlay": "https://images.pexels.com/photos/28428592/pexels-photo-28428592.jpeg",
+                "placeholder_product": "https://images.pexels.com/photos/14466493/pexels-photo-14466493.jpeg"
+            },
+            "icons": "Use Lucide React (default) or Phosphor Icons for a more premium feel."
+        }
+    },
+    "implementation_steps": [
+        {
+            "phase": "Setup",
+            "tasks": [
+                "Install 'lenis' for smooth scrolling.",
+                "Install 'framer-motion' if not present.",
+                "Configure Tailwind theme with the specified colors and fonts."
+            ]
+        },
+        {
+            "phase": "Global Styles",
+            "tasks": [
+                "Apply dark background (#050505) to body.",
+                "Set default text color to white.",
+                "Add a subtle noise texture overlay to the entire app (opacity 0.03)."
+            ]
+        },
+        {
+            "phase": "Components",
+            "tasks": [
+                "Refactor 'Button' to match the 'primary' and 'outline' styles.",
+                "Create a 'ProductCard' with the specified hover effects (image zoom, border glow).",
+                "Build a 'Hero' section using the parallax image strategy."
+            ]
+        },
+        {
+            "phase": "Pages",
+            "tasks": [
+                "Update Homepage with Bento grid layout for categories.",
+                "Redesign Product Detail Page with 'Zoom In' philosophy (large images, sticky details).",
+                "Style the Cart Drawer with glassmorphism."
+            ]
+        },
+        {
+            "phase": "Cart & Checkout",
+            "tasks": [
+                "Ensure Transfer payments are supported."
+            ]
+        }
+    ],
+    "universal_guidelines": [
+        "Do not use gradients for text unless it's a very large heading.",
+        "Avoid pure black (#000000) for backgrounds; use #050505 or #0A0A0A.",
+        "Ensure all interactive elements have a visible focus state.",
+        "Use 'data-testid' for all interactive elements.",
+        "Images must have 'alt' tags for accessibility."
+    ]
+}
